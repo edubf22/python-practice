@@ -1,0 +1,44 @@
+Interview prep:
+
+Be prepared to talk about 1-2 data projects you feel most proud of.  
+
+- Talk about 1-2 data science projects you feel most proud of.
+The first project I would like to talk about is the one where I built a model to try to predict the outcome of NBA games. I really liked working on it, and I imagine it could be relevant to this position.
+I was involved in all steps of this projects, so from hypotheses generation, thinking why a team is more likely to win a game than another, and I decided to do that by looking at team statistics. I wanted to considered both traditional and advanced team statistics, and compare model performance using both types.
+
+Then, I had to extract data off the internet, so I had to look for different sources and decide where to collect the data from. I ended up using Basketball-Reference because the data can be easily collected there. After I had the data in my hands, I had to parse and transform it, and I did that using python, working with pandas and numpy libraries. This involved cleaning the data, removing missing values, and creating new features. I also created some visualizations to help me better understand the data, and for that I used Matplotlib and Seaborn. For example, I looked at the percentage of home team wins across different seasons, which is interesting because play at home is considered an advantage. 
+
+When I felt like I had a good grasp for the dataset, I started working on modeling. So I approached this as a classification problem, considering whether the home team won or not. For that I used different algorithms from the Scikit-Learn package. I was interested in learning more about the algorithms and also check which would give me the best accuracy. I worked with:
+
+Logistic regression: model for binary classification, we use a sigmoid function to fit the data within 0 and 1
+
+RandomForest: similar to decision trees, but we combine multiple random decision trees with random features and use the predicted majority class.
+	Reduced chance of overfitting because we don't use the same samples every time to build the trees, and not all the same features are trained the same time
+	Independet, built in parallel
+	
+SVM: we aim to create a hyperplane to separate the points that belong to each class, for example a surface separating points in a 3D space
+	This hyperplane is created taking into account the features, and we aim for a hyperplane that can efficiently separate the points from each class
+
+Naive Bayes: assumes that the features are independent, there are different versions, I used Gaussian Naive Bayes 
+
+XGBoost: Boosting algorithm, where we train different models sequentially compensating for the errors of the prior model
+	Sequential model, so it can take longer
+
+For evaluation, I looked at cross validation and I compared the mean accuracy and standard deviation. 
+Finally, I wanted to try deploying the model on the web, so I built a simple application using Streamlit and deployed it in the Streamlit cloud.
+
+Second project is not related to sports, but I think it is relevant because I worked on it as part of a team. So a colleague and wanted to study the access to healthcare at different NYC boroughs, we did this by collecting information about the neighborhoods in each borough and then scraping venue information from different websites. In this project, it was crucial to have effective communication, so my partner and I met frequently to share our progress, our findings and very importantly our struggles. 
+
+Why do you want to work for Sports IQ specifically?
+Well, I'm very excited about working with sports analytics, and at Sports IQ your team is using machine learning to track games and player performance, which sounds very exciting. From my research, it looks like the company is growing, which is a good sign, and I also noticed you have several data scientists, so it would be a great experience for me to join a data science team and learn from people with more experience. I also like that this looks like a challenging environment, because sports change constantly, and as such the models need to evolve and constantly be reevaluated, and that the team seems to be quite diverse 
+
+
+Why the sports-betting field in general?
+Now that sports betting is being regulated in legal in many countries, I see it as a big market with great potential for growth not just in north america, but in other regions as well. So this is exciting because it is a hot and expanding field combined with something that I'm passionate about, which is sports
+
+My questions:
+What projects would be under the scope of this position?
+
+Are you covering only North American leagues? I noticed there is some modeling for the MLS, were you planning to work with European soccer as well? 
+
+What is the routine like for a data scientist at Sports IQ? 
