@@ -4,7 +4,7 @@ Be prepared to talk about 1-2 data projects you feel most proud of.
 
 - Talk about 1-2 data science projects you feel most proud of.
 The first project I would like to talk about is the one where I built a model to try to predict the outcome of NBA games. I really liked working on it, and I imagine it could be relevant to this position.
-I was involved in all steps of this projects, so from hypotheses generation, thinking why a team is more likely to win a game than another, and I decided to do that by looking at team statistics. I wanted to considered both traditional and advanced team statistics, and compare model performance using both types.
+I was involved in all steps of this projects, so from hypotheses generation, thinking why a team is more likely to win a game than another, and I decided to do that by looking at team statistics. I wanted to consider both traditional and advanced team statistics, and compare model performance using both types.
 
 Then, I had to extract data off the internet, so I had to look for different sources and decide where to collect the data from. I ended up using Basketball-Reference because the data can be easily collected there. After I had the data in my hands, I had to parse and transform it, and I did that using python, working with pandas and numpy libraries. This involved cleaning the data, removing missing values, and creating new features. I also created some visualizations to help me better understand the data, and for that I used Matplotlib and Seaborn. For example, I looked at the percentage of home team wins across different seasons, which is interesting because play at home is considered an advantage. 
 
@@ -27,14 +27,41 @@ XGBoost: Boosting algorithm, where we train different models sequentially compen
 For evaluation, I looked at cross validation and I compared the mean accuracy and standard deviation. 
 Finally, I wanted to try deploying the model on the web, so I built a simple application using Streamlit and deployed it in the Streamlit cloud.
 
-Second project is not related to sports, but I think it is relevant because I worked on it as part of a team. So a colleague and wanted to study the access to healthcare at different NYC boroughs, we did this by collecting information about the neighborhoods in each borough and then scraping venue information from different websites. In this project, it was crucial to have effective communication, so my partner and I met frequently to share our progress, our findings and very importantly our struggles. 
+Second project is not related to sports, but I think it is relevant because I worked on it as part of a team. We were tasked with clustering neighborhoods in NYC, and we decided to do so by looking at healthcare facilities in each area. To start this project, we were given a JSON file with geographical coordinates for different neighborhoods. We were also 
 
-Why do you want to work for Sports IQ specifically?
+
+In this project, it was crucial to have effective communication, so my partner and I met frequently to share our progress, our findings and very importantly our struggles. 
+
+- Why would you pick model A vs model B to solve a particular problem? 
+
+- What is the difference between the different ML evaluation metrics and when would you pick one over the other?
+
+- What challenges did you face while working on your projects? How did/would you overcome them?
+
+- Differences between feature selection and feature engineering.
+In feature selection, we are looking at selecting only the features that we believe are useful in building a model. We can use pairplot from Seaborn, which compares each feature in pairs by doing scatter plots. We are creating thus a subset of the original features.
+In feature extraction, we are trying to reduce the number of features by combining different features and remove redundancies in the dataset. So here, we are not creating a subset of original features, but rather creating new ones.
+
+- How to define the right sample size for your statistical experiments and to spot/mitigate potential biases in your samples?
+
+- Explain how algorithm X works under the hood.
+
+- How would you deploy model X into de cloud?
+
+- What makes a good versus a great data scientist?
+
+- How would you handle conflict and different personalities? 
+
+- Why do you want to work for Sports IQ specifically?
 Well, I'm very excited about working with sports analytics, and at Sports IQ your team is using machine learning to track games and player performance, which sounds very exciting. From my research, it looks like the company is growing, which is a good sign, and I also noticed you have several data scientists, so it would be a great experience for me to join a data science team and learn from people with more experience. I also like that this looks like a challenging environment, because sports change constantly, and as such the models need to evolve and constantly be reevaluated, and that the team seems to be quite diverse 
 
 
 Why the sports-betting field in general?
 Now that sports betting is being regulated in legal in many countries, I see it as a big market with great potential for growth not just in north america, but in other regions as well. So this is exciting because it is a hot and expanding field combined with something that I'm passionate about, which is sports
+
+
+================================================================================ QUESTIONS TO ASK THEM ==================================================================================================
+
 
 My questions:
 What projects would be under the scope of this position?
@@ -42,3 +69,7 @@ What projects would be under the scope of this position?
 Are you covering only North American leagues? I noticed there is some modeling for the MLS, were you planning to work with European soccer as well? 
 
 What is the routine like for a data scientist at Sports IQ? 
+
+What is the tech stack at this company? Specifically for data scientists
+
+What are the first months like for a new employee? Is there a training period? 
