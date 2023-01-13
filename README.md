@@ -13,3 +13,6 @@ Level	Description
 - Question
 - Hints
 - Solution
+
+## 3. Interview questions
+Some interview questions that I have faced are also stored in this repo. Some of them are more generic, but others are more specific to the company in question where I interviewed. 
