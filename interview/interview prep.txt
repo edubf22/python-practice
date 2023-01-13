@@ -45,10 +45,13 @@ In feature extraction, we are trying to reduce the number of features by combini
 - How to define the right sample size for your statistical experiments and to spot/mitigate potential biases in your samples?
 
 - Explain how algorithm X works under the hood.
+Look at the list of algorithms explained above.
 
 - How would you deploy model X into de cloud?
+When I had to deploy a model in the cloud, I exported the selected model as bytes using pickle. Then, we need to write a python script with the application and our model. For example, we could load the pickled model, and then use Flask to write an application that allows a user to communicate with our model. Finally, we run this python script in the cloud, such as in an AWS EC2 server.
 
 - What makes a good versus a great data scientist?
+A good data scientist has good programming skills, knowledge of the different tools that are available out there. A great data scientist has the curiosity to go beyond just building a model and deploying it, and also asks questions about the meaning of the results that are models provide. This goes beyond just being good at coding, but also involves having a passion for the topic at hand, so in this case knowing and being passionate about sports and sports statistics.
 
 - How would you handle conflict and different personalities? 
 
