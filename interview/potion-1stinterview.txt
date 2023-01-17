@@ -1,0 +1,18 @@
+what are the data sources, how clean is the data
+where does the data currently reside
+think about the ETL process - process will be different depending on data source
+
+Extract
+tesseract - pass path to a server, returns a digitized version of the document (scanned image) or other ocr (optical character recognition) tool - works with images
+pdf file - use open source libraries to extract the pdf hierarchy
+computer vision - adapting for handwritten data
+
+Transform
+data harmonization - putting documents from different sources 
+have a schema to make all data harmonized, even though they come from different sources
+
+Load
+Putting it in a relational database where we can extract that information easily 
+
+what kind of coding questions could I expect? 
+possibly SQL and python
