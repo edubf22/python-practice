@@ -103,7 +103,7 @@ What projects would be under the scope of this position?
 
 Are you covering only North American leagues? I noticed there is some modeling for the MLS, were you planning to work with European soccer as well? 
 
-What is the routine like for a data scientist at Sports IQ? 
+What is the routine like for a data scientist/ in the business intelligence team at Sports IQ? 
 
 What is the tech stack at this company? Specifically for data scientists
 
